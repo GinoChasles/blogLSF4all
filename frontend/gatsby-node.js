@@ -11,6 +11,14 @@ exports.createPages = async ({ graphql, actions }) => {
             }
           }
         }
+        categories: allStrapiCategory {
+          edges {
+            node {
+              strapiId
+              slug
+            }
+          }
+        }
       }
     `
     );
@@ -21,6 +29,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
     // Create blog articles pages.
     const articles = result.data.articles.edges;
+    const categories = result.data.categories.edges;
 
     const ArticleTemplate = require.resolve("./src/templates/article.js");
 
@@ -30,6 +39,18 @@ exports.createPages = async ({ graphql, actions }) => {
             component: ArticleTemplate,
             context: {
                 slug: article.node.slug,
+            },
+        });
+    });
+
+    const CategoryTemplate = require.resolve("./src/templates/category.js");
+
+    categories.forEach((category, index) => {
+        createPage({
+            path: `/category/${category.node.slug}`,
+            component: CategoryTemplate,
+            context: {
+                slug: category.node.slug,
             },
         });
     });
