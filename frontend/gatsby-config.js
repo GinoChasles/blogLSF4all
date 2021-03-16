@@ -39,5 +39,11 @@ module.exports = {
       },
     },
     "gatsby-plugin-offline",
+    {
+      resolve: `gatsby-plugin-disqus`,
+      options: {
+        shortname: `your-disqus-shortname`
+      }
+    },
   ],
 };

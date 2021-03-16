@@ -4,6 +4,8 @@ import Img from "gatsby-image";
 import Moment from "react-moment";
 import Layout from "../components/layout";
 import Markdown from "react-markdown";
+import ReactDisqusComments from "react-disqus-comments";
+
 
 export const query = graphql`
   query ArticleQuery($slug: String!) {
@@ -84,6 +86,12 @@ const Article = ({ data }) => {
                     </div>
                 </div>
             </div>
+            <ReactDisqusComments
+                shortname="ginochasles"
+                identifier="ginochasles"
+                title="Example Thread"
+                url="http://localhost:8000"
+            />
         </Layout>
     );
 };

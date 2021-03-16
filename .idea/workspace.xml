@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="696be233-6225-4978-9604-48253d2dbb30" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/templates/article.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/templates/postTemplate.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/gatsby-node.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/gatsby-node.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/gatsby-config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/templates/article.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/templates/article.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../givemeacar" beforeDir="false" afterPath="$PROJECT_DIR$/../givemeacar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../react/cv/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../react/cv/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../react/cv/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../react/cv/src/App.js" afterDir="false" />
@@ -67,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615811910545</updated>
-      <workItem from="1615811912117" duration="6004000" />
+      <workItem from="1615811912117" duration="11004000" />
     </task>
     <servers />
   </component>
