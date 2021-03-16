@@ -1,4 +1,4 @@
-{
+ {
   "routes": [
     {
       "method": "GET",
@@ -16,6 +16,15 @@
         "policies": []
       }
     },
+    {
+      "method": "POST",
+      "path": "/articles/:id/comments",
+      "handler": "article.comment",
+      "config": {
+        "policies": []
+      }
+    },
+
     {
       "method": "GET",
       "path": "/articles/:slug",

@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="696be233-6225-4978-9604-48253d2dbb30" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/templates/postTemplate.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-strapi/backend/api/article/config/routes.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog-strapi/backend/api/article/config/routes.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-strapi/backend/api/article/controllers/article.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-strapi/backend/api/article/controllers/article.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-strapi/backend/api/article/models/article.settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog-strapi/backend/api/article/models/article.settings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/gatsby-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/templates/article.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/templates/article.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/articles.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/articles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../givemeacar" beforeDir="false" afterPath="$PROJECT_DIR$/../givemeacar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../react/cv/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../react/cv/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../react/cv/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../react/cv/src/App.js" afterDir="false" />
@@ -32,6 +29,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1pnHPQPtMuEUolRFDWyPInM1YDG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -69,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615811910545</updated>
-      <workItem from="1615811912117" duration="11237000" />
+      <workItem from="1615811912117" duration="16080000" />
     </task>
     <servers />
   </component>
